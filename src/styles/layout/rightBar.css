@@ -1,0 +1,5 @@
+.rightBarMain {
+    border-top: solid 1px #474747;
+    width: 280px;
+    flex-shrink: 0;
+}
