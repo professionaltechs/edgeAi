@@ -90,7 +90,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag1} alt="" />
                 <img src={flag2} alt="" />
@@ -197,7 +197,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag3} alt="" />
                 <img src={flag1} alt="" />
@@ -296,7 +296,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag4} alt="" />
                 <img src={flag5} alt="" />
@@ -403,7 +403,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag6} alt="" />
                 <img src={flag1} alt="" />
@@ -478,7 +478,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag7} alt="" />
                 <img src={flag5} alt="" />
@@ -553,7 +553,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag8} alt="" />
                 <img src={flag1} alt="" />
@@ -669,7 +669,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag9} alt="" />
                 <img src={flag10} alt="" />
@@ -744,7 +744,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag11} alt="" />
                 <img src={flag9} alt="" />
@@ -819,7 +819,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag9} alt="" />
                 <img src={flag12} alt="" />
@@ -894,7 +894,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag13} alt="" />
                 <img src={flag9} alt="" />
@@ -969,7 +969,7 @@ const Home = () => {
           <div className="scoreCenterCol paddingRight paddingLeft">
             <div className="scoreCenterLeftCol">
               <div
-                style={{ display: "flex", flexDirection: "column", gap: "3px" }}
+                style={{ display: "flex", flexDirection: "column", gap: "4px" }}
               >
                 <img src={flag9} alt="" />
                 <img src={flag9} alt="" />

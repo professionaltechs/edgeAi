@@ -1,15 +1,80 @@
 .sidebarMain {
-    width: 300px;
-    min-height: 100vh;
-    background-color: #1C1C1C;
-    padding-top: 10px;
-    flex-shrink: 0;
+  width: 330px;
+  min-height: 100vh;
+  background-color: #1c1c1c;
+  padding: 10px 16px;
+  flex-shrink: 0;
+  color: white;
 }
 
-
 .logo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: fit-content;
+}
+
+.sidebarButtonsContainer {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.sidebarButton {
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 13px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.sidebarTournamentsContainer {
+  margin-top: 35px;
+  background-color: #282727;
+  padding: 14px 16px;
+  border-radius: 16px;
+}
+
+.tournamentsHeading {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.tournamentListContainer {
+  margin-top: 18px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tournamentItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tournamentName {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 15px;
+}
+
+.tournamentData {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tournamentDataRatio {
+  font-size: 12px;
+  color: #e73b3b;
+}
+
+.tournamentDataDownIcon {
+  cursor: pointer;
 }

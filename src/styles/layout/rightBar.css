@@ -1,5 +1,89 @@
 .rightBarMain {
-    border-top: solid 1px #474747;
-    width: 280px;
+  border-top: solid 1px #474747;
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px 22px 35px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebarPortion {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebarHeadingContainer {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+.sidebarHeading {
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+.sidebarCapsules {
+  display: flex;
+  color: white;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #1c1c1c;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  padding: 8px 30px 8px 9px;
+}
+
+.sidebarCapsulePara {
+  font-size: 12px;
+}
+
+.sidebarCapsuleNumberContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarCapsuleNumber {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.sidebarCapsuleSideLine {
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #6ffb78;
+}
+
+.sidebarDisclaimer {
+  font-family: "Inter", sans-serif;
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+
+.sidebarDisclaimerLeftBar {
     flex-shrink: 0;
+    width: 6px;
+    background-color: #FF4E4E;
+    border-radius: 7px;
+}
+
+.sidebarDisclaimerHeading {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.sidebarDisclaimerPara {
+    font-size: 12px;
 }
