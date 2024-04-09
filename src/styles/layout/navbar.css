@@ -8,7 +8,7 @@
 
 .navbarInputContainer  {
     background-color: #323232;
-    border-radius: 30px;
+    border-radius: 24px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -33,15 +33,18 @@
 .navbarFunctionalButtonContainer {
     display: flex;
     align-items: center;
-    padding: 13px 12px;
+    padding: 13px 14px;
     background-color: #6FFB78;
     justify-content: space-between;
     border-radius:  15px;
     cursor: pointer;
     width: 220px;
+    
 }
 
 .navbarFunctionalButton {
     background-color: transparent;
     border: none;
+    font-size: 10px;
+    font-weight: 500;
 }

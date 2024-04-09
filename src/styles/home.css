@@ -1,48 +1,173 @@
 .liveScore {
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #1C1C1C;
+  padding-bottom: 16px;
+  box-shadow: 0px 3px 4px #000;
 }
 
 .liveNumberContainer {
-    background-color: #1C1C1C;
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-bottom: 7px;
-    border-bottom: solid 1px #474747;
+  background-color: #1c1c1c;
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 7px;
+  border-bottom: solid 1px #474747;
 }
 
 .liveNumberBox {
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    background-color: #131A21;
-    border-radius: 20px;
-    padding-right: 17px;
-    gap: 15px;
-    font-size: 13px;
-    border: solid 2px #1C2632;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: #131a21;
+  border-radius: 128px;
+  padding-right: 17px;
+  gap: 15px;
+  font-size: 13px;
+  border: solid 2px #363c42;
 }
 
 .liveAllButton {
-    background-color: #1C2632;
-    padding: 6px 16px;
-    border-radius: 20px;
-    border: solid 1px #4695C2;
-    color: #4695C2;
+  background-color: #1c2632;
+  padding: 6px 17px;
+  border-radius: 128px;
+  border: solid 1px #4695c2;
+  color: #4695c2;
+  scale: 1.1 1.1;
+  font-weight: 600;
+  width: 53px;
+  text-align: center;
+}
+
+.liveDotLogo {
+  font-size: 11px;
+}
+
+.live {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #6ffb78;
 }
 
 .liveNumber {
-    color: #6FFB78;
+  color: #6ffb78;
 }
 
 .number {
-    margin-left: 2px;
+  margin-left: 1px;
 }
 
 .scoresMainContainer {
-    flex-grow: 1;
-    background-color: #161819;
+  flex-grow: 1;
+  background-color: #161819;
+  /* padding-left: 14px;
+  padding-right: 14px; */
+  padding-top: 5px;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.scoreDetals {
+  display: flex;
+  /* align-items: center; */
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 14px;
+  padding-right: 14px;
+  gap: 5px;
+  /* font-size: 16px; */
+}
+
+.scoreLeftCol {
+  flex-shrink: 0;
+  min-width: 55px;
+  max-width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  /* border-right: solid 1px #393B3B ; */
+}
+
+.paddingRight {
+  padding-right: 11px;
+  font-family: "Segoe UI";
+}
+
+.paddingLeft {
+  padding-left: 6px;
+}
+
+.fontSegeio {
+  font-family: "Segoe UI" !important;
+}
+
+.scoreCenterCol {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  border-right: solid 2px #393b3b;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.scoreCenterLeftCol {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.smallText {
+  font-size: 11px !important;
+}
+
+.whiteText {
+  color: white;
+}
+
+.greyScore {
+  color: #737475;
+  font-weight: 500;
+}
+
+.scoreRightCol {
+  min-width: 38px;
+  max-width: 32px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.scoreRightLogo {
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.scoreCenterRightCol {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.scoreBg {
+  width: 40px;
+  height: 18px;
+  background-color: #1c2632;
+  border-radius: 4px;
+  font-weight: 600;
+  border: solid 1px #3E4751;
 }
